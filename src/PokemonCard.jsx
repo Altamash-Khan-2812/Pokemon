@@ -17,7 +17,7 @@ export const PokemonCard = ({ pokemonData }) => {
 
       <div className="grid-three-cols">
         <p className="pokemon-info">
-          <span> Height:</span> {pokemonData.heigh}
+          <span> Height:</span> {pokemonData.height}
         </p>
         <p className="pokemon-info">
           <span> Weight:</span> {pokemonData.weight}
