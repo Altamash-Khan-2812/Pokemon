@@ -1,12 +1,43 @@
-# React + Vite
+# Pokemon Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to Pokemon Finder, an interactive web app built using React that allows you to search for Pokémon, view detailed information like their abilities, stats, types, and more! Powered by the official Pokémon API, this app pulls data dynamically, so you can browse through various Pokémon and their stats seamlessly.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo 
 
-## Expanding the ESLint configuration
+You can see the live demo <a href="https://pokemon-kappa-lac.vercel.app/" target="_blank">Here</a>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Features
+
+Search Pokémon: Quickly search for any Pokémon by name using the search bar.
+
+Detailed Info: View detailed information about each Pokémon including height, weight, abilities, stats, and types.
+
+Responsive Design: The app is mobile-friendly and adapts to all screen sizes.
+
+Fetching Data: The app fetches data from the official Pokémon API and presents it in a neat and organized way.
+
+User-Friendly Interface: A clean and attractive interface with easy navigation.
+
+
+## Technologies Used
+
+React: For building the interactive UI.
+
+JavaScript (ES6+): For functionality and handling state and side effects.
+
+CSS: For styling and creating a responsive design.
+
+Pokémon API: To fetch detailed data about Pokémon.
+
+
+## How It Works
+
+Fetching Data: The app makes an API request to the Pokémon API to fetch the list of Pokémon (100 Pokémon by default). It then fetches detailed information for each Pokémon, like stats, abilities, and images.
+
+Search Functionality: A search bar allows users to filter the Pokémon based on the name. The search is case-insensitive.
+
+Display: Each Pokémon is displayed in a card with details such as its type, abilities, stats, height, weight, and base experience. The data is fetched asynchronously to ensure the app remains responsive.
+
+Error Handling: If there's an issue with the API request or data fetching, the app displays an error message to the user.
