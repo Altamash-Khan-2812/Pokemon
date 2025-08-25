@@ -39,7 +39,7 @@ export const Pokemon = () => {
   const searchData = pokemon.filter((cuurPokemon) => {
     return cuurPokemon.name.toLowerCase().includes(search.toLowerCase());
   });
-
+  
   if (loading) {
     return (
       <div>
