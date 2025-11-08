@@ -4,7 +4,7 @@ Welcome to Pokemon Finder, an interactive web app built using React that allows 
 
 ## Demo
 
-You can see the live demo <a href="https://pokemon-kappa-lac.vercel.app/" target="_blank">Here</a>
+You can see the live demo <a href="https://pokemon-kappa-lac.vercel.app/">Here</a>
 
 ## Features
 
@@ -30,3 +30,36 @@ You can see the live demo <a href="https://pokemon-kappa-lac.vercel.app/" target
 - **Display**: Each Pokémon is displayed in a card with details such as its type, abilities, stats, height, weight, and base experience. The data is fetched asynchronously to ensure the app remains responsive.
 
 - **Error Handling**: If there's an issue with the API request or data fetching, the app displays an error message to the user.
+
+## Installation & Setup
+
+Follow these steps to run the project locally:
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/Altamash-khn/Pokemon.git
+   ```
+
+2. **Navigate to the project folder**
+
+   ```bash
+   cd Pokemon
+   ```
+
+3. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+4. **Start the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+5. **Open the app in your browser**
+   ```
+   http://localhost:5173
+   ```
